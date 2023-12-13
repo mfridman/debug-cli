@@ -10,7 +10,7 @@ import (
 
 func Run() {
 	info, ok := debug.ReadBuildInfo()
-	fmt.Println(info, ok)
+	// fmt.Println(info, ok)
 	by, err := json.MarshalIndent(info, "", "  ")
 	if err != nil {
 		panic(err)
