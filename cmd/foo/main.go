@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/peterbourgon/ff/v4"
+)
 
 func main() {
+	_ = ff.Command{}
 	fmt.Println("Hello, World!")
 }
