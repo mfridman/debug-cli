@@ -1,12 +1,9 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/peterbourgon/ff/v4"
+	"github.com/mfridman/debug-cli/internal/cli"
 )
 
 func main() {
-	_ = ff.Command{}
-	fmt.Println("Hello, World!")
+	cli.Run()
 }
