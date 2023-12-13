@@ -1,4 +1,4 @@
-module github.com/mfridman/debug-cli/v2/cmd/foo
+module github.com/mfridman/debug-cli/cmd/foo/v2
 
 go 1.21.5
 
