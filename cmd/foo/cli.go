@@ -9,7 +9,7 @@ import (
 )
 
 func Run() {
-	info, ok := debug.ReadBuildInfo()
+	info, _ := debug.ReadBuildInfo()
 	// fmt.Println(info, ok)
 	by, err := json.MarshalIndent(info, "", "  ")
 	if err != nil {
